@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="indexCSS.css">
 </head>
 <body>
-    <div class="sidebar">
+    <div id="side" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">About</a>
         <a href="#">CV</a>
@@ -14,15 +14,20 @@
         <a href="#">DnD</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-    <div class="main">
-<!--        <div>-->
-<!--            <img src="Rsc/I_Sleep.jpg">-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <p>Hello, My name is Luke Welcome.</p>-->
-<!--        </div>-->
+    <span style="height:100%;cursor:pointer" onclick="openNav()" class="sidebar" id="smallSide"></span>
+
+
+    <div id="main">
+        <div id="about">
+            <h1>Home</h1>
+            <div>
+                <img src="Rsc/I_Sleep.jpg">
+            </div>
+            <div>
+                <p>Hello, My name is Luke Welcome.</p>
+            </div>
+        </div>
     </div>
 
     <script src="indexScript.js"></script>

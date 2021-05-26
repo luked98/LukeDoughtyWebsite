@@ -1,14 +1,32 @@
+body {
+    background-color: lavenderblush;
+}
+
+h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    margin-top: auto;
+    color: #5B84B1FF;
+}
+
 .sidebar {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 50px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #F5C7B8FF; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+#side {
+    width: 0;
 }
 
 /* The navigation menu links */
@@ -23,7 +41,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: #FFA177FF;
 }
 
 /* Position and style the close button (top right corner) */
@@ -39,4 +57,5 @@
 #main {
     transition: margin-left .5s;
     padding: 20px;
+    margin-left: 50px;
 }
