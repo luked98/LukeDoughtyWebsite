@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*background-color: lavenderblush;*/
     background-image: url('Rsc/glasgow-4746491_1920.jpg');
@@ -17,14 +21,18 @@ h1 {
     color: #F5C7B8FF;
 }
 
+.page {
+    height: 100vh;
+}
+
 .sidebar {
     height: 100%; /* 100% Full-height */
-    width: 50px; /* 0 width - change this with JavaScript */
+    width: 50px;
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #5B84B1FF; /* Black*/
+    background-color: #F5C7B8FF;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -32,6 +40,14 @@ h1 {
 
 #side {
     width: 0;
+}
+
+#smallSide {
+    background-color: #5B84B1FF;
+}
+
+#smallSide:hover {
+    background-color: #F5C7B8FF;
 }
 
 /* The navigation menu links */
@@ -46,7 +62,7 @@ h1 {
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: #FFA177FF;
+    color: #5B84B1FF;
 }
 
 /* Position and style the close button (top right corner) */

@@ -12,17 +12,18 @@
 <body>
     <div id="side" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">CV</a>
-        <a href="#">Art</a>
-        <a href="#">DnD</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#cv">CV</a>
+        <a href="#art">Art</a>
+        <a href="#dnd">DnD</a>
     </div>
 
     <span style="height:100%;cursor:pointer" onclick="openNav()" class="sidebar" id="smallSide"></span>
 
     <div id="main">
-        <div id="home">
-            <h1>Home</h1>
+        <div class="page" id="home">
+            <h1 id="dateTime"></h1>
             <div id="meImg" class="homeCon">
             </div>
             <div class="box"><i class="fa fa-quote-left fa2"></i>
@@ -34,8 +35,34 @@
                 </div>
             </div>
         </div>
+        <div class="page" id="about">
+            <h1>About</h1>
+        </div>
+        <div class="page" id="cv">
+            <h1>CV</h1>
+        </div>
+        <div class="page" id="art">
+            <h1>Art</h1>
+            <div id="slider" class="slider">
+                <div class="wrapper">
+                    <div id="items" class="items">
+                        <span class="slide">Slide 1</span>
+                        <span class="slide">Slide 2</span>
+                        <span class="slide">Slide 3</span>
+                        <span class="slide">Slide 4</span>
+                        <span class="slide">Slide 5</span>
+                    </div>
+                </div>
+                <a id="prev" class="control prev"></a>
+                <a id="next" class="control next"></a>
+            </div>
+        </div>
+        <div class="page" id="dnd">
+            <h1>DnD</h1>
+        </div>
     </div>
 
     <script src="indexScript.js"></script>
+    <script src="carousel.js"></script>
 </body>
 </html>
