@@ -6,14 +6,6 @@ let slider = document.getElementById('slider'),
     next = document.getElementById('next');
 
 slide(slider, sliderItems, prev, next);
-// popSlides();
-
-function popSlides(fileList) {
-    for (let file of fileList) {
-        let name = file.name ? file.name : 'NOT SUPPORTED';
-        console.log({file, name});
-    }
-}
 
 function slide(wrapper, items, prev, next) {
     let posX1 = 0,

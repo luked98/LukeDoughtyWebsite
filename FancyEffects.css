@@ -12,6 +12,7 @@
     box-shadow: 20px 20px rgba(0,0,0,.15);
     transition: all .4s ease;
 }
+
 #meImg:hover {
     border-radius: 0 0 50% 50% / 0 0 5% 5% ;
     box-shadow: 10px 10px rgba(0,0,0,.25);
@@ -112,7 +113,7 @@
 
 /*Art slider*/
 .slider {
-    width: 55rem;
+    width: 60rem;
     height: auto;
     margin: 0 auto;
     padding: 10px;
@@ -138,7 +139,7 @@
 }
 
 .slide {
-    width: 55rem;
+    width: 60rem;
     height: 40rem;
     cursor: pointer;
     float: left;
@@ -147,7 +148,8 @@
     justify-content: center;
     transition: all 1s;
     position: relative;
-    background: #FFCF47;
+    background-size: contain;
+    background: #FFCF47 no-repeat center;
 }
 
 .control {
@@ -184,3 +186,44 @@
 .next:active {
     transform: scale(0.8);
 }
+
+/*Pictures*/
+#s1 {
+    background-image: url("Art/artistPaintsCow.jpg");
+}
+#s2 {
+    background-image: url("Art/Banana.jpg");
+}
+#s3 {
+    background-image: url("Art/bathtime.jpg");
+}
+#s4 {
+    background-image: url("Art/candle.jpg");
+}
+#s5 {
+    background-image: url("Art/cat.jpg");
+}
+/*#s6 {*/
+/*    background-image: url("Art/coffee.jpg");*/
+/*}*/
+/*#s7 {*/
+/*    background-image: url("Art/driving.jpg");*/
+/*}*/
+/*#s8 {*/
+/*    background-image: url("Art/forrest.jpg");*/
+/*}*/
+/*#s9 {*/
+/*    background-image: url("Art/hienzBeans.jpg");*/
+/*}*/
+/*#s10 {*/
+/*    background-image: url("Art/house.jpg");*/
+/*}*/
+/*#s11 {*/
+/*    background-image: url("Art/Oreo Milk.png");*/
+/*}*/
+/*#s12 {*/
+/*    background-image: url("Art/santa.jpg");*/
+/*}*/
+/*#s13 {*/
+/*    background-image: url("Art/space.jpg");*/
+/*}*/
