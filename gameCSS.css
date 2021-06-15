@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('Rsc/us in london.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-blend-mode: darken;
+}
+
+header {
+    position: center;
+    background-blend-mode: hue;
+    text-align: center;
+
+    width: auto;
+}
+
+h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-top: auto;
+    color: lightskyblue;
+}
+
+table, td, th {
+    border: 1px solid whitesmoke;
+    background-color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#leaderBoard {
+    background-color: hotpink;
+    width: 75vw;
+    height: 65vh;
+    margin: auto;
+}
